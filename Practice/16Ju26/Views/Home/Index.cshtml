@@ -1,0 +1,106 @@
+﻿<style>
+    body {
+        background: #f7f5f2;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .page-title {
+        text-align: center;
+        margin: 35px 0;
+        font-size: 2.2rem;
+        color: #2f3a34;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .table-container {
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+        background: #ffffff;
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 15px 35px rgba(0,0,0,.08);
+    }
+
+    .student-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .student-table thead {
+            background: #2d4d46;
+            color: #f8f8f8;
+        }
+
+        .student-table th {
+            padding: 18px;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: .5px;
+        }
+
+        .student-table td {
+            padding: 16px;
+            color: #4a4a4a;
+            border-bottom: 1px solid #ececec;
+        }
+
+        .student-table tbody tr {
+            transition: .25s ease;
+        }
+
+            .student-table tbody tr:nth-child(even) {
+                background: #fafaf8;
+            }
+
+            .student-table tbody tr:hover {
+                background: #eef5ef;
+                transform: scale(1.005);
+            }
+
+        .student-table th:first-child,
+        .student-table td:first-child {
+            text-align: center;
+            width: 70px;
+        }
+
+        .student-table td {
+            text-align: center;
+        }
+</style>
+
+<div>
+    <h1 class="page-title">Student Data</h1>
+
+    <div class="table-container">
+        <table class="student-table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                    <th>Fees</th>
+                    <th>Course</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>@item.Gender</td>
+                        <td>@item.Age</td>
+                        <td>₹@item.fees</td>
+                        <td>@item.Course</td>
+                        <td>@item.marks</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

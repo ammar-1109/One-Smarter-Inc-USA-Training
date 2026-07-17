@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<_16Jul26.Models.Department>
+
+<div class="text-center mb-4">
+    <h1 class="display-4">Department Details</h1>
+</div>
+
+<div class="mb-3">
+    <a asp-action="Index" class="btn btn-primary">Employees</a>
+    <a asp-action="Department" class="btn btn-success">Departments</a>
+</div>
+
+<table class="table table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>Name</th>
+            <th>Head</th>
+            <th>Contact</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var dept in Model)
+        {
+            <tr>
+                <td>@dept.Name</td>
+                <td>@dept.Head</td>
+                <td>@dept.Contact</td>
+                <td>@dept.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
