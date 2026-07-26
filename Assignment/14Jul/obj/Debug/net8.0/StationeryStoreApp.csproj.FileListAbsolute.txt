@@ -1,0 +1,5 @@
+E:\dotnet training\practical\Assignment\14Jul\obj\Debug\net8.0\StationeryStoreApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotnet training\practical\Assignment\14Jul\obj\Debug\net8.0\StationeryStoreApp.AssemblyInfoInputs.cache
+E:\dotnet training\practical\Assignment\14Jul\obj\Debug\net8.0\StationeryStoreApp.AssemblyInfo.cs
+E:\dotnet training\practical\Assignment\14Jul\obj\Debug\net8.0\StationeryStoreApp.csproj.CoreCompileInputs.cache
+E:\dotnet training\practical\Assignment\14Jul\obj\Debug\net8.0\StationeryStoreApp.sourcelink.json

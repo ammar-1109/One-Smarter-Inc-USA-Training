@@ -1,0 +1,15 @@
+E:\dotnet training\practical\Assignment\13Jul\bin\Debug\net10.0\13Jul.exe
+E:\dotnet training\practical\Assignment\13Jul\bin\Debug\net10.0\13Jul.deps.json
+E:\dotnet training\practical\Assignment\13Jul\bin\Debug\net10.0\13Jul.runtimeconfig.json
+E:\dotnet training\practical\Assignment\13Jul\bin\Debug\net10.0\13Jul.dll
+E:\dotnet training\practical\Assignment\13Jul\bin\Debug\net10.0\13Jul.pdb
+E:\dotnet training\practical\Assignment\13Jul\obj\Debug\net10.0\13Jul.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotnet training\practical\Assignment\13Jul\obj\Debug\net10.0\13Jul.AssemblyInfoInputs.cache
+E:\dotnet training\practical\Assignment\13Jul\obj\Debug\net10.0\13Jul.AssemblyInfo.cs
+E:\dotnet training\practical\Assignment\13Jul\obj\Debug\net10.0\13Jul.csproj.CoreCompileInputs.cache
+E:\dotnet training\practical\Assignment\13Jul\obj\Debug\net10.0\13Jul.sourcelink.json
+E:\dotnet training\practical\Assignment\13Jul\obj\Debug\net10.0\13Jul.dll
+E:\dotnet training\practical\Assignment\13Jul\obj\Debug\net10.0\refint\13Jul.dll
+E:\dotnet training\practical\Assignment\13Jul\obj\Debug\net10.0\13Jul.pdb
+E:\dotnet training\practical\Assignment\13Jul\obj\Debug\net10.0\13Jul.genruntimeconfig.cache
+E:\dotnet training\practical\Assignment\13Jul\obj\Debug\net10.0\ref\13Jul.dll

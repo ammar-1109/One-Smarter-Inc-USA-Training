@@ -1,0 +1,14 @@
+======== SHOPEASE INVOICE ========
+Order Id: 5001
+Date: 25-07-2026 00:10
+Customer: ammar
+Address: kashkjfh
+Items:
+Laptop x2
+Total: Rs.130000
+Discount: Rs.13500
+GST: Rs.20970
+Grand Total: Rs.137470
+Payment: UPI
+Payment Status: Failed
+==================================
