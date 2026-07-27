@@ -1,0 +1,35 @@
+@model List<_23July2026.Models.Product>
+
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<h3>Product List</h3>
+
+@if (Model != null && Model.Any())
+{
+    <table border="1" cellspacing="10">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>No products available.</p>
+}
+
+<br />
+
+<a asp-controller="Home" asp-action="Logout">Logout</a>

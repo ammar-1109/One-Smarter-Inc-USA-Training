@@ -1,0 +1,92 @@
+@model Manufacturer
+
+@{
+    ViewData["Title"] = "Manufacturer Details";
+}
+
+<h2>Manufacturer Module</h2>
+<hr />
+
+@if (ViewBag.BlockAccess == true)
+{
+    <div class="alert alert-warning">
+        Please register an automobile first before adding manufacturer details.
+    </div>
+    <p>
+        <a asp-controller="Automobile" asp-action="Register" class="btn btn-primary">Register Automobile</a>
+    </p>
+}
+else if (ViewBag.ShowDetails == true)
+{
+    <div class="alert alert-success">
+        Manufacturer details saved successfully.
+    </div>
+
+    <h4>Manufacturer Information</h4>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Manufacturer Name</strong></td>
+                <td>@Model.ManufacturerName</td>
+            </tr>
+            <tr>
+                <td><strong>Country</strong></td>
+                <td>@Model.Country</td>
+            </tr>
+            <tr>
+                <td><strong>Contact Number</strong></td>
+                <td>@Model.ContactNumber</td>
+            </tr>
+            <tr>
+                <td><strong>Email Address</strong></td>
+                <td>@Model.EmailAddress</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>
+        <a asp-controller="Manufacturer" asp-action="List" class="btn btn-secondary">View All Entries</a>
+        <a asp-controller="Manufacturer" asp-action="Index" class="btn btn-primary">Add Another Manufacturer</a>
+    </p>
+}
+else
+{
+    <form asp-action="Index" asp-controller="Manufacturer" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="mb-3">
+            <label asp-for="ManufacturerName" class="form-label"></label>
+            <input asp-for="ManufacturerName" class="form-control" />
+            <span asp-validation-for="ManufacturerName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Country" class="form-label"></label>
+            <input asp-for="Country" class="form-control" />
+            <span asp-validation-for="Country" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ContactNumber" class="form-label"></label>
+            <input asp-for="ContactNumber" class="form-control" />
+            <span asp-validation-for="ContactNumber" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="EmailAddress" class="form-label"></label>
+            <input asp-for="EmailAddress" class="form-control" />
+            <span asp-validation-for="EmailAddress" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save Manufacturer</button>
+    </form>
+}
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

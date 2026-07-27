@@ -1,0 +1,53 @@
+@model List<Manufacturer>
+
+@{
+    ViewData["Title"] = "Manufacturer Entries";
+}
+
+<h2>Manufacturer Entries</h2>
+<hr />
+
+@if (ViewBag.BlockAccess == true)
+{
+    <div class="alert alert-warning">
+        Please register an automobile first before viewing manufacturer entries.
+    </div>
+    <p>
+        <a asp-controller="Automobile" asp-action="Register" class="btn btn-primary">Register Automobile</a>
+    </p>
+}
+else
+{
+    <p>
+        <a asp-controller="Manufacturer" asp-action="Index" class="btn btn-primary">Add New Manufacturer</a>
+    </p>
+
+    @if (Model.Count == 0)
+    {
+        <div class="alert alert-info">No manufacturer entries yet.</div>
+    }
+    else
+    {
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Manufacturer Name</th>
+                    <th>Country</th>
+                    <th>Contact Number</th>
+                    <th>Email Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ManufacturerName</td>
+                        <td>@item.Country</td>
+                        <td>@item.ContactNumber</td>
+                        <td>@item.EmailAddress</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}

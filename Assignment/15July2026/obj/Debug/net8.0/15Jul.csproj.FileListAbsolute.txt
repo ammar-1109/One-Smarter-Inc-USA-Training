@@ -1,0 +1,15 @@
+E:\dotnet training\practical\Assignment\15Jul\bin\Debug\net8.0\15Jul.exe
+E:\dotnet training\practical\Assignment\15Jul\bin\Debug\net8.0\15Jul.deps.json
+E:\dotnet training\practical\Assignment\15Jul\bin\Debug\net8.0\15Jul.runtimeconfig.json
+E:\dotnet training\practical\Assignment\15Jul\bin\Debug\net8.0\15Jul.dll
+E:\dotnet training\practical\Assignment\15Jul\bin\Debug\net8.0\15Jul.pdb
+E:\dotnet training\practical\Assignment\15Jul\obj\Debug\net8.0\15Jul.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotnet training\practical\Assignment\15Jul\obj\Debug\net8.0\15Jul.AssemblyInfoInputs.cache
+E:\dotnet training\practical\Assignment\15Jul\obj\Debug\net8.0\15Jul.AssemblyInfo.cs
+E:\dotnet training\practical\Assignment\15Jul\obj\Debug\net8.0\15Jul.csproj.CoreCompileInputs.cache
+E:\dotnet training\practical\Assignment\15Jul\obj\Debug\net8.0\15Jul.sourcelink.json
+E:\dotnet training\practical\Assignment\15Jul\obj\Debug\net8.0\15Jul.dll
+E:\dotnet training\practical\Assignment\15Jul\obj\Debug\net8.0\refint\15Jul.dll
+E:\dotnet training\practical\Assignment\15Jul\obj\Debug\net8.0\15Jul.pdb
+E:\dotnet training\practical\Assignment\15Jul\obj\Debug\net8.0\15Jul.genruntimeconfig.cache
+E:\dotnet training\practical\Assignment\15Jul\obj\Debug\net8.0\ref\15Jul.dll

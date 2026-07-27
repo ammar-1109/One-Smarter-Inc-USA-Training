@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Registration Success";
+}
+
+<h2 class="text-success">Employee Added Successfully</h2>
+
+<p><strong>Employee Name:</strong> @ViewBag.EmployeeName</p>
+<p><strong>Department:</strong> @ViewBag.Department</p>
+
+<a asp-controller="Department" asp-action="Details" class="btn btn-primary">View Department Details</a>

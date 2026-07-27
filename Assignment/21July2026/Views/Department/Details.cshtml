@@ -1,0 +1,28 @@
+@model Department
+
+@{
+    ViewData["Title"] = "Department Details";
+}
+
+<h2>Department Details</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Department Name</th>
+        <td>@Model.DepartmentName</td>
+    </tr>
+    <tr>
+        <th>Department Head</th>
+        <td>@Model.DepartmentHead</td>
+    </tr>
+    <tr>
+        <th>Head Contact Number</th>
+        <td>@Model.HeadContactNumber</td>
+    </tr>
+    <tr>
+        <th>Head Email</th>
+        <td>@Model.HeadEmail</td>
+    </tr>
+</table>
+
+<a asp-controller="Employee" asp-action="Register" class="btn btn-secondary">Register Another Employee</a>

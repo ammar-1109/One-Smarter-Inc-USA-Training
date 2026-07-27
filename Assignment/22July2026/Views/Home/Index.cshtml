@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Automobile Management System</h1>
+    <p class="lead">Register automobiles and manage manufacturer details using ASP.NET MVC.</p>
+    <div class="mt-4">
+        <a asp-controller="Automobile" asp-action="Register" class="btn btn-primary btn-lg me-2">Register Automobile</a>
+        <a asp-controller="Automobile" asp-action="List" class="btn btn-outline-primary btn-lg me-2">View Automobiles</a>
+        <a asp-controller="Manufacturer" asp-action="Index" class="btn btn-outline-primary btn-lg me-2">Add Manufacturer</a>
+        <a asp-controller="Manufacturer" asp-action="List" class="btn btn-outline-secondary btn-lg">View Manufacturers</a>
+    </div>
+</div>

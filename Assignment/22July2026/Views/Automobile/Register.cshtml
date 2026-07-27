@@ -1,0 +1,75 @@
+@model Automobile
+
+@{
+    ViewData["Title"] = "Automobile Registration";
+}
+
+<h2>Automobile Registration</h2>
+<hr />
+
+@if (ViewBag.IsSuccess == true)
+{
+    <div class="alert alert-success">
+        <strong>Automobile Registered Successfully</strong><br />
+        Vehicle Name: @Model.VehicleName<br />
+        Brand: @Model.Brand
+    </div>
+    <p>
+        <a asp-controller="Automobile" asp-action="List" class="btn btn-secondary">View All Entries</a>
+        <a asp-controller="Manufacturer" asp-action="Index" class="btn btn-primary">Go to Manufacturer Module</a>
+    </p>
+}
+else
+{
+    <form asp-action="Register" asp-controller="Automobile" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="mb-3">
+            <label asp-for="VehicleId" class="form-label"></label>
+            <input asp-for="VehicleId" class="form-control" />
+            <span asp-validation-for="VehicleId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="VehicleName" class="form-label"></label>
+            <input asp-for="VehicleName" class="form-control" />
+            <span asp-validation-for="VehicleName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Brand" class="form-label"></label>
+            <input asp-for="Brand" class="form-control" />
+            <span asp-validation-for="Brand" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ModelYear" class="form-label"></label>
+            <input asp-for="ModelYear" class="form-control" />
+            <span asp-validation-for="ModelYear" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Price" class="form-label"></label>
+            <input asp-for="Price" class="form-control" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="FuelType" class="form-label"></label>
+            <select asp-for="FuelType" class="form-select">
+                <option value="">-- Select Fuel Type --</option>
+                <option value="Petrol">Petrol</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Electric">Electric</option>
+                <option value="Hybrid">Hybrid</option>
+            </select>
+            <span asp-validation-for="FuelType" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Register Automobile</button>
+    </form>
+}
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

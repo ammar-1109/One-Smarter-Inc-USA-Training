@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "klaypFc4ew8=",
+  "success": true,
+  "projectFilePath": "E:\\dotnet training\\practical\\Assignment\\15Jul\\15Jul.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ammar\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.29\\microsoft.netcore.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\ammar\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.29\\microsoft.windowsdesktop.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\ammar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.29\\microsoft.aspnetcore.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\ammar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.29\\microsoft.netcore.app.host.win-x64.8.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
