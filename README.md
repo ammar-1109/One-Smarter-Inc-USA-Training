@@ -35,7 +35,7 @@
 
 ---
 
-### **10Jul** *(Practice only)*
+### **10Jul** 
 **Practice** (`E:\dotnet training\practical\Practice\10Jul`)
 - LINQ (`Where`, filtering collections).
 - Delegates/events (`Func`, multicast delegate, button click event).
@@ -53,14 +53,14 @@
 
 ---
 
-### **13Jul** *(Assignment only)*
+### **13Jul** 
 **Assignment** (`E:\dotnet training\practical\Assignment\13Jul`)
 - Customer Store console app: register, login, browse products, build cart.
 - Discount calculation and payment processing flow.
 
 ---
 
-### **14Jul** *(Assignment only)*
+### **14Jul** 
 **Assignment** (`E:\dotnet training\practical\Assignment\14Jul`)
 - Stationery Store Management with login and custom exceptions.
 - CRUD on Pen/Notebook/Marker items; purchase, low-stock alerts, sorting.
@@ -87,7 +87,7 @@
 
 ---
 
-### **17Jul** *(Assignment only)*
+### **17Jul** 
 **Assignment** (`E:\dotnet training\practical\Assignment\17Jul`)
 - ShopEase e-commerce console — admin and customer roles.
 - Cart, coupons, GST, checkout, order history, payment simulation, invoice file export.
@@ -115,7 +115,7 @@
 
 ---
 
-### **23Jul** *(Practice only)*
+### **23Jul** 
 **Practice** (`E:\dotnet training\practical\Practice\23Jul`)
 - Session-based login (admin/12345) protecting product listing.
 - `ProductController` shows laptop/mouse/keyboard/monitor only when logged in.
@@ -129,21 +129,9 @@
 
 ---
 
-### **25Jul** *(Practice only)*
+### **25Jul** 
 **Practice** (`E:\dotnet training\practical\Practice\25Jul`)
 - ASP.NET Core Web API with Swagger/OpenAPI.
 - `StudentController` REST endpoints: GET all students, GET by id; in-memory student list.
 
 ---
-
-### **Bonus (pre-dated)**
-**Practice** (`E:\dotnet training\practical\Practice\FirstConsoleApp`)
-- Intro console app: prints name/branch/college; calls `First.Display()` from a second class.
-
----
-
-### **Coverage gaps**
-| Dates with no folder | Notes |
-|----------------------|-------|
-| 12Jul, 18Jul–20Jul | No Practice or Assignment folders |
-| 10Jul, 13Jul, 14Jul, 17Jul, 23Jul–25Jul | Practice or Assignment only (not both) |
