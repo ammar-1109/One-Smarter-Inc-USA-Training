@@ -1,4 +1,4 @@
-namespace StationeryStoreApp
+namespace _14July2026
 {
 
     interface IBill

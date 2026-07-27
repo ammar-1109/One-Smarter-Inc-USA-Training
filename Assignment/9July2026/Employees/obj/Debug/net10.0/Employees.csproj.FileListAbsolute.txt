@@ -13,3 +13,18 @@ E:\dotnet training\practical\Assignment\9 Jul 26\Employees\obj\Debug\net10.0\ref
 E:\dotnet training\practical\Assignment\9 Jul 26\Employees\obj\Debug\net10.0\Employees.pdb
 E:\dotnet training\practical\Assignment\9 Jul 26\Employees\obj\Debug\net10.0\Employees.genruntimeconfig.cache
 E:\dotnet training\practical\Assignment\9 Jul 26\Employees\obj\Debug\net10.0\ref\Employees.dll
+E:\dotnet training\practical\Assignment\9July2026\Employees\bin\Debug\net10.0\Employees.exe
+E:\dotnet training\practical\Assignment\9July2026\Employees\bin\Debug\net10.0\Employees.deps.json
+E:\dotnet training\practical\Assignment\9July2026\Employees\bin\Debug\net10.0\Employees.runtimeconfig.json
+E:\dotnet training\practical\Assignment\9July2026\Employees\bin\Debug\net10.0\Employees.dll
+E:\dotnet training\practical\Assignment\9July2026\Employees\bin\Debug\net10.0\Employees.pdb
+E:\dotnet training\practical\Assignment\9July2026\Employees\obj\Debug\net10.0\Employees.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotnet training\practical\Assignment\9July2026\Employees\obj\Debug\net10.0\Employees.AssemblyInfoInputs.cache
+E:\dotnet training\practical\Assignment\9July2026\Employees\obj\Debug\net10.0\Employees.AssemblyInfo.cs
+E:\dotnet training\practical\Assignment\9July2026\Employees\obj\Debug\net10.0\Employees.csproj.CoreCompileInputs.cache
+E:\dotnet training\practical\Assignment\9July2026\Employees\obj\Debug\net10.0\Employees.sourcelink.json
+E:\dotnet training\practical\Assignment\9July2026\Employees\obj\Debug\net10.0\Employees.dll
+E:\dotnet training\practical\Assignment\9July2026\Employees\obj\Debug\net10.0\refint\Employees.dll
+E:\dotnet training\practical\Assignment\9July2026\Employees\obj\Debug\net10.0\Employees.pdb
+E:\dotnet training\practical\Assignment\9July2026\Employees\obj\Debug\net10.0\Employees.genruntimeconfig.cache
+E:\dotnet training\practical\Assignment\9July2026\Employees\obj\Debug\net10.0\ref\Employees.dll

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dotnet training\\practical\\Assignment\\14Jul\\14July2026.csproj",
-      "projectName": "14Jul",
-      "projectPath": "E:\\dotnet training\\practical\\Assignment\\14Jul\\14July2026.csproj",
+      "projectUniqueName": "E:\\dotnet training\\practical\\Assignment\\14July2026\\14July2026.csproj",
+      "projectName": "14July2026",
+      "projectPath": "E:\\dotnet training\\practical\\Assignment\\14July2026\\14July2026.csproj",
       "packagesPath": "C:\\Users\\ammar\\.nuget\\packages\\",
-      "outputPath": "E:\\dotnet training\\practical\\Assignment\\14Jul\\obj\\",
+      "outputPath": "E:\\dotnet training\\practical\\Assignment\\14July2026\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

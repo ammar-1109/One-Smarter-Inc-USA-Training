@@ -1,0 +1,15 @@
+E:\dotnet training\practical\Practice\8July2026\bin\Debug\net10.0\8July2026.exe
+E:\dotnet training\practical\Practice\8July2026\bin\Debug\net10.0\8July2026.deps.json
+E:\dotnet training\practical\Practice\8July2026\bin\Debug\net10.0\8July2026.runtimeconfig.json
+E:\dotnet training\practical\Practice\8July2026\bin\Debug\net10.0\8July2026.dll
+E:\dotnet training\practical\Practice\8July2026\bin\Debug\net10.0\8July2026.pdb
+E:\dotnet training\practical\Practice\8July2026\obj\Debug\net10.0\8July2026.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotnet training\practical\Practice\8July2026\obj\Debug\net10.0\8July2026.AssemblyInfoInputs.cache
+E:\dotnet training\practical\Practice\8July2026\obj\Debug\net10.0\8July2026.AssemblyInfo.cs
+E:\dotnet training\practical\Practice\8July2026\obj\Debug\net10.0\8July2026.csproj.CoreCompileInputs.cache
+E:\dotnet training\practical\Practice\8July2026\obj\Debug\net10.0\8July2026.sourcelink.json
+E:\dotnet training\practical\Practice\8July2026\obj\Debug\net10.0\8July2026.dll
+E:\dotnet training\practical\Practice\8July2026\obj\Debug\net10.0\refint\8July2026.dll
+E:\dotnet training\practical\Practice\8July2026\obj\Debug\net10.0\8July2026.pdb
+E:\dotnet training\practical\Practice\8July2026\obj\Debug\net10.0\8July2026.genruntimeconfig.cache
+E:\dotnet training\practical\Practice\8July2026\obj\Debug\net10.0\ref\8July2026.dll

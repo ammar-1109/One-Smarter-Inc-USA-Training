@@ -1,7 +1,7 @@
 // validations
 using System.ComponentModel.DataAnnotations;
 
-namespace _21July2026Week.Models
+namespace _21July2026.Models
 {
     public class Student
     {

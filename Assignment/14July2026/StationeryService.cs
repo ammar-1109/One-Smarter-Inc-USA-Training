@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace StationeryStoreApp
+namespace _14July2026
 {
 
     class StationeryService

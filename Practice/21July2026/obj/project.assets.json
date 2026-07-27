@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dotnet training\\practical\\Practice\\21Jul\\21July2026.csproj",
-      "projectName": "21Jul",
-      "projectPath": "E:\\dotnet training\\practical\\Practice\\21Jul\\21July2026.csproj",
+      "projectUniqueName": "E:\\dotnet training\\practical\\Practice\\21July2026\\21July2026Week.csproj",
+      "projectName": "21July2026Week",
+      "projectPath": "E:\\dotnet training\\practical\\Practice\\21July2026\\21July2026Week.csproj",
       "packagesPath": "C:\\Users\\ammar\\.nuget\\packages\\",
-      "outputPath": "E:\\dotnet training\\practical\\Practice\\21Jul\\obj\\",
+      "outputPath": "E:\\dotnet training\\practical\\Practice\\21July2026\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

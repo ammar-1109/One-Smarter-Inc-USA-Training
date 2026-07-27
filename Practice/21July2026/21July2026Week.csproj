@@ -4,7 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>_21July2026Week</RootNamespace>
+    <RootNamespace>_21July2026</RootNamespace>
   </PropertyGroup>
 
 </Project>

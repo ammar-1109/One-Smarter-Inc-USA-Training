@@ -1,0 +1,9 @@
+E:\dotnet training\practical\Practice\25July2026\obj\Debug\net10.0\25July2026.csproj.AssemblyReference.cache
+E:\dotnet training\practical\Practice\25July2026\obj\Debug\net10.0\rpswa.dswa.cache.json
+E:\dotnet training\practical\Practice\25July2026\obj\Debug\net10.0\25July2026.GeneratedMSBuildEditorConfig.editorconfig
+E:\dotnet training\practical\Practice\25July2026\obj\Debug\net10.0\25July2026.AssemblyInfoInputs.cache
+E:\dotnet training\practical\Practice\25July2026\obj\Debug\net10.0\25July2026.AssemblyInfo.cs
+E:\dotnet training\practical\Practice\25July2026\obj\Debug\net10.0\25July2026.csproj.CoreCompileInputs.cache
+E:\dotnet training\practical\Practice\25July2026\obj\Debug\net10.0\25July2026.MvcApplicationPartsAssemblyInfo.cs
+E:\dotnet training\practical\Practice\25July2026\obj\Debug\net10.0\25July2026.MvcApplicationPartsAssemblyInfo.cache
+E:\dotnet training\practical\Practice\25July2026\obj\Debug\net10.0\25July2026.sourcelink.json

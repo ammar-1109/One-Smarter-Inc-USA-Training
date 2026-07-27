@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CustomerStoreApp
+namespace _13July2026
 {
     class ProductService
     {
